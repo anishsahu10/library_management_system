@@ -338,14 +338,10 @@ void handleLibrarianMenu(Library &lib, User *user)
 
 int main()
 {
-    cout << "Starting Library Management System (LMS)...\n";
-    cout << "Creating Library object...\n";
     Library lib;
-    cout << "Library object created\n";
-    cout << "Initializing sample data...\n";
     lib.initializeWithSampleData();
-    cout << "Sample data initialized\n";
-    cout << "Displaying main menu...\n";
+    cout << "Sample data is successfully initialized.\n";
+    cout << "Showing the Main Menu.\n";
 
     int choice;
     do
@@ -359,10 +355,10 @@ int main()
             int userId;
             string password;
 
-            cout << "Enter User ID: ";
+            cout << "Enter the User ID: ";
             cin >> userId;
             clearInputBuffer();
-            cout << "Enter Password: ";
+            cout << "Enter the Password: ";
             getline(cin, password);
 
             User *user = lib.getUser(userId);
