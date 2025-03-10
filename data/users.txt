@@ -1,0 +1,10 @@
+Student|1|Karan Desai|pass111  
+Student|2|Meera Nair|pass222  
+Student|3|Soham Bhatt|pass333  
+Student|4|Pooja Sharma|pass444  
+Student|5|Aakash Reddy|pass555  
+Faculty|6|Dr. Anil Kapoor|pass666  
+Faculty|7|Prof. Swati Joshi|pass777  
+Faculty|8|Dr. Naveen Iyer|pass888  
+Librarian|9|Mrs. Rekha Verma|pass999  
+
